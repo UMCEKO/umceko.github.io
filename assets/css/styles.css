@@ -1,0 +1,48 @@
+body {
+  background-color: #313338;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.mydiv {
+  background-color: #2B2D31;
+  border-radius: 1rem;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.mydiv svg {
+  font-size: 4rem;
+  margin: auto;
+}
+
+.icon-mother-div {
+  display: inline-flex;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 4rem;
+}
+
+.mydiv .success svg {
+  color: var(--bs-teal);
+}
+
+.icon-mother-div.success {
+  background-color: rgba(32,201,151,0.06);
+}
+
+.icon-mother-div.unsuccess {
+  background-color: rgba(201,40,30,0.06);
+}
+
+.icon-mother-div.unsuccess svg {
+  color: var(--bs-danger);
+}
+
